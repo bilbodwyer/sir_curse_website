@@ -1,0 +1,103 @@
+/* body */
+body {
+    /* background-color: black; */
+}
+
+/* Header */
+.header {
+    padding: 0 0 3rem;
+}
+.logo {
+    max-width: 75%;
+    margin: 1em 12.5%;
+    padding: 0 0 1rem;
+}
+
+.socials {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.socials .social {
+    margin: 1.5rem;
+}
+
+.social a {
+    color: #000;
+    text-decoration: none;
+}
+
+.links {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.links .link {
+    margin: 1.5rem;
+}
+
+/* .link a {
+    color: #000;
+    text-decoration: none;
+} */
+
+
+
+/* Quotes */
+.quotes {
+    min-height: 50%;
+    max-width: 75%;
+    margin: 2rem 12.5%;
+}
+
+.quote {
+    /* color: #fff; */
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.attribute {
+    text-align: right;
+    /* color: #fff; */
+}
+
+/* Release */
+.release {
+    margin: 2rem;
+}
+.artwork {
+    text-align: center;
+}
+
+.artwork h3 {
+    padding-top: 4rem;
+}
+.cover {
+    max-width: 90%
+}
+
+.form {
+    padding-top: 2.5rem;
+    text-align: center;
+}
+
+.form h4 {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.names input {
+    margin: auto 0.25rem 0.75rem;
+    width: 33%;
+}
+
+.address input {
+    margin: auto 0.25rem 0.75rem;
+    width: 69%;
+}
+
+/* Copyright */
+
+.copyright {
+    text-align: center;
+}
