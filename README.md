@@ -1,3 +1,1 @@
 Sir Curse Website
-
-test
