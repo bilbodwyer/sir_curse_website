@@ -33,7 +33,7 @@
                     <a href="about.html">about</a>
                 </span>
                 <span class="link">
-                    <a href="live.html">live</a>
+                    <a href="live.php">live</a>
                 </span>
                 <span class="link">
                     <a href="gallery.html">gallery</a>
@@ -57,36 +57,25 @@
                                 <th>Details</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <td>24/11/2019</td>
-                                <td>Bread Shed, Manchester</td>
-                                <td>Link</td>
-                            </tr>
-                            <tr>
-                                <td>29/02/2020</td>
-                                <td>The Lending Room, Leeds</td>
-                                <td>Link</td>
-                            </tr>
-                        </tbody>
+                        <?php
+                        echo "<tbody>\n\n";
+                        $f = fopen("live.csv", "r");
+                        while (($line = fgetcsv($f)) !== false) {
+                            echo "<tr>";
+                            foreach ($line as $cell) {
+                                echo "<td>" . htmlspecialchars($cell) . "</td>";
+                            }
+                            echo "</tr>\n";
+                        }
+                        fclose($f);
+                        echo "\n</tbody>";
+                        ?>
                     </table>
                 </div>
             </div>
         </div>
     </div>
 
-    <?php
-    echo "<html><body><table>\n\n";
-    $f = fopen("live.csv", "r");
-    while (($line = fgetcsv($f)) !== false) {
-            echo "<tr>";
-            foreach ($line as $cell) {
-                    echo "<td>" . htmlspecialchars($cell) . "</td>";
-            }
-            echo "</tr>\n";
-    }
-    fclose($f);
-    echo "\n</table></body></html>";
 
     <div class="section socials">
        <div class="container">
