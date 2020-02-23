@@ -2,11 +2,12 @@
 body {
     background-color: #111111;
     color: #eeeeee;
+    text-align: center;
 }
 
 /* Header */
 .header {
-    padding: 0 0 3rem;
+    padding: 0 0 1rem;
 }
 .logo {
     max-width: 75%;
@@ -24,6 +25,36 @@ body {
     color: #004776;
 }
 
+/* About */
+.about {
+    background-image: url("../images/about-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 50%;
+    padding: 8rem 1rem;
+}
+.about h1 {
+    font-family: 'Rozha One', serif;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 64px;
+}
+.biog {
+    text-align: center;
+}
+.biog p {
+    margin-bottom: 1rem;
+}
+.photo {
+    text-align: center;
+}
+.pic {
+    max-width: 90%;
+}
+
+
+
 /* Quotes */
 .quotes {
     background-image: url("../images/quotes-bg.jpg");
@@ -32,13 +63,7 @@ body {
     min-height: 50%;
     padding: 8rem 1rem;
 }
-.quote {
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-.attribute {
-    text-align: right;
-}
+
 
 /* Release */
 .release {
@@ -53,43 +78,26 @@ body {
 .cover {
     max-width: 90%
 }
-.form {
-    padding-top: 2.5rem;
-    text-align: center;
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(238, 238, 238, 0), rgba(238, 238, 238, 0.75), rgba(238, 238, 238, 0));
+    margin: 1.5rem;
 }
-.form h4 {
-    margin-top: 4rem;
+.button {
     margin-bottom: 1rem;
 }
-.names input {
-    margin: auto 0.25rem 0.75rem;
-    width: 33%;
-    color: #111111;
+.quote {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
-.address input {
-    margin: auto 0.25rem 0.75rem;
-    width: 69%;
-    color: #111111;
+.attribute {
+    text-align: right;
 }
-
-/* Bio */
-.bio {
-    text-align: center;
-    font-size: 18px;
-}
-.bio p {
-    margin: 1rem;
-}
-
-/* Gigs */
-.gigs {
-    text-align: center;
-    font-size: 18px;
-}
-.table {
-    margin-left: 12.5%;
-    min-width: 50%;
-    max-width: 75%;
+.fas {
+    font-size: 16px;
+    padding-right: 0.5rem;
 }
 
 /* Socials */
@@ -107,7 +115,51 @@ body {
     text-decoration: none;
 }
 
+/* Mailing List */
+.form {
+    padding-top: 2.5rem;
+    text-align: center;
+}
+.names input {
+    margin: auto 0.25rem 0.75rem;
+    width: 33%;
+    color: #111111;
+}
+.address input {
+    margin: auto 0.25rem 0.75rem;
+    width: 67%;
+    color: #111111;
+}
+
 /* Copyright */
 .copyright {
     text-align: center;
 }
+
+
+
+/*             */
+/*             */
+/* EXTRA PAGES */
+/*             */
+/*             */
+
+/* Bio */
+/* .bio {
+    text-align: center;
+    font-size: 18px;
+}
+.bio p {
+    margin: 1rem;
+} */
+
+/* Gigs */
+/* .gigs {
+    text-align: center;
+    font-size: 18px;
+}
+.table {
+    margin-left: 12.5%;
+    min-width: 50%;
+    max-width: 75%;
+} */

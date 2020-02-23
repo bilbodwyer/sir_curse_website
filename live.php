@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <div class="section header">
+    <!-- <div class="section header">
         <div class="container">
             <div class="row">
                 <a href="index.html"> <img class="logo" src="images/logo.png" alt="logo"> </a>
@@ -43,7 +43,7 @@
                 </span>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="section gigs">
         <div class="container">
