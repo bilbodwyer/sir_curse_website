@@ -1,22 +1,49 @@
 /* body */
 body {
     background-color: #111111;
+<<<<<<< HEAD
     color: #eeeeee;
+=======
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #eeeeee;
+    text-align: center;
+>>>>>>> uat
 }
 
 /* Header */
 .header {
-    padding: 0 0 3rem;
+    padding: 0 0 1rem;
 }
 .logo {
     max-width: 75%;
     margin: 1em 12.5%;
-    padding: 0 0 1rem;
 }
+<<<<<<< HEAD
 .links {
-    text-align: center;
-    font-size: 3rem;
+=======
+
+/* Quotes */
+.quotes {
+    background-image: url("../images/quotes-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 50%;
+    padding: 8rem 1rem;
 }
+
+
+/* Release */
+.release {
+    margin: 2rem;
+}
+.artwork {
+>>>>>>> uat
+    text-align: center;
+}
+<<<<<<< HEAD
 .links .link {
     margin: 1.5rem;
 }
@@ -33,34 +60,71 @@ body {
     padding: 8rem 1rem;
 }
 .quote {
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-.attribute {
-    text-align: right;
-}
-
-/* Release */
-.release {
-    margin: 2rem;
-}
-.artwork {
-    text-align: center;
-}
+=======
 .artwork h3 {
     padding-top: 4rem;
 }
 .cover {
     max-width: 90%
 }
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(238, 238, 238, 0), rgba(238, 238, 238, 0.75), rgba(238, 238, 238, 0));
+    margin: 1.5rem;
+}
+.button {
+    margin-bottom: 1rem;
+}
+.quote {
+    text-align: left;
+>>>>>>> uat
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.attribute {
+    text-align: right;
+}
+.fas {
+    font-size: 16px;
+    padding-right: 0.5rem;
+}
+
+/* Socials */
+.socials {
+    margin-top: 4rem;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 3rem;
+}
+<<<<<<< HEAD
+.artwork h3 {
+    padding-top: 4rem;
+=======
+.socials .social {
+    margin: 1.5rem;
+>>>>>>> uat
+}
+.social a {
+    color: #fff;
+    text-decoration: none;
+}
+<<<<<<< HEAD
+=======
+
+/* Mailing List */
+>>>>>>> uat
 .form {
     padding-top: 2.5rem;
     text-align: center;
 }
+<<<<<<< HEAD
 .form h4 {
     margin-top: 4rem;
     margin-bottom: 1rem;
 }
+=======
+>>>>>>> uat
 .names input {
     margin: auto 0.25rem 0.75rem;
     width: 33%;
@@ -68,6 +132,7 @@ body {
 }
 .address input {
     margin: auto 0.25rem 0.75rem;
+<<<<<<< HEAD
     width: 69%;
     color: #111111;
 }
@@ -107,6 +172,12 @@ body {
     text-decoration: none;
 }
 
+=======
+    width: 67%;
+    color: #111111;
+}
+
+>>>>>>> uat
 /* Copyright */
 .copyright {
     text-align: center;
