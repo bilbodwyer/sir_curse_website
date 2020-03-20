@@ -1,16 +1,12 @@
 /* body */
 body {
     background-color: #111111;
-<<<<<<< HEAD
-    color: #eeeeee;
-=======
     background-image: url("../images/bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     color: #eeeeee;
     text-align: center;
->>>>>>> uat
 }
 
 /* Header */
@@ -21,9 +17,6 @@ body {
     max-width: 75%;
     margin: 1em 12.5%;
 }
-<<<<<<< HEAD
-.links {
-=======
 
 /* Quotes */
 .quotes {
@@ -40,27 +33,8 @@ body {
     margin: 2rem;
 }
 .artwork {
->>>>>>> uat
     text-align: center;
 }
-<<<<<<< HEAD
-.links .link {
-    margin: 1.5rem;
-}
-.link a {
-    color: #004776;
-}
-
-/* Quotes */
-.quotes {
-    background-image: url("../images/quotes-bg.jpg");
-    background-size: cover;
-    background-position: center;
-    min-height: 50%;
-    padding: 8rem 1rem;
-}
-.quote {
-=======
 .artwork h3 {
     padding-top: 4rem;
 }
@@ -78,7 +52,6 @@ hr {
 }
 .quote {
     text-align: left;
->>>>>>> uat
     font-weight: bold;
     margin-bottom: 1rem;
 }
@@ -97,34 +70,19 @@ hr {
     text-align: center;
     font-size: 3rem;
 }
-<<<<<<< HEAD
-.artwork h3 {
-    padding-top: 4rem;
-=======
 .socials .social {
     margin: 1.5rem;
->>>>>>> uat
 }
 .social a {
     color: #fff;
     text-decoration: none;
 }
-<<<<<<< HEAD
-=======
 
 /* Mailing List */
->>>>>>> uat
 .form {
     padding-top: 2.5rem;
     text-align: center;
 }
-<<<<<<< HEAD
-.form h4 {
-    margin-top: 4rem;
-    margin-bottom: 1rem;
-}
-=======
->>>>>>> uat
 .names input {
     margin: auto 0.25rem 0.75rem;
     width: 33%;
@@ -132,52 +90,10 @@ hr {
 }
 .address input {
     margin: auto 0.25rem 0.75rem;
-<<<<<<< HEAD
-    width: 69%;
-    color: #111111;
-}
-
-/* Bio */
-.bio {
-    text-align: center;
-    font-size: 18px;
-}
-.bio p {
-    margin: 1rem;
-}
-
-/* Gigs */
-.gigs {
-    text-align: center;
-    font-size: 18px;
-}
-.table {
-    margin-left: 12.5%;
-    min-width: 50%;
-    max-width: 75%;
-}
-
-/* Socials */
-.socials {
-    margin-top: 4rem;
-    margin-bottom: auto;
-    text-align: center;
-    font-size: 3rem;
-}
-.socials .social {
-    margin: 1.5rem;
-}
-.social a {
-    color: #fff;
-    text-decoration: none;
-}
-
-=======
     width: 67%;
     color: #111111;
 }
 
->>>>>>> uat
 /* Copyright */
 .copyright {
     text-align: center;
